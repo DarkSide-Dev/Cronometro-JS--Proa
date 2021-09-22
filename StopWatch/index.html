@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>StopWatch - JavaScript</title>
+        <meta name="description" content="Um cronômetro feito em JavaScript">
+        <meta name="author" content="DarkSide Dev">
+        <meta name="keywords" content="StopWatch, Cronômetro, cronometro, JavaScript, contador">
+        <link id="css" rel="stylesheet" href="./assets/css/index.css">
+    </head>
+
+    <body>
+
+        <div class="colors">
+
+            <div onclick="changeCss(1)" class="blue"></div>
+            
+            <div onclick="changeCss(0)" class="green"></div>
+
+        </div>
+        
+        <div class="clock">
+            <p>StopWatch</p>
+            <div class="display">
+
+                <div class="display-time">
+
+                    <div class="hour">00</div>
+                    <div class="points">:</div>
+                    <div class="minutes">00</div>
+                    <div class="points">:</div>
+                    <div class="seconds">00</div>
+                    <div class="points">:</div>
+                    <div class="milliseconds">00</div>
+
+                </div>
+
+            </div>
+
+            <div class="area-btn">
+
+                <button onclick="start()">START</button>
+
+                <button onclick="stopp()">STOP</button>
+
+                <button onclick="restart()">RESTART</button>
+
+            </div>
+
+        </div>
+
+        <script src="./assets/js/index.js"></script>
+
+    </body>
+
+</html>

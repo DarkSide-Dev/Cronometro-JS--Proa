@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: all ease .4s;
+    -webkit-transition: all ease .4s;
+    -moz-transition: all ease .4s;
+    -ms-transition: all ease .4s;
+    -o-transition: all ease .4s;
+}
+
+body{
+    background-color: #053604;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.colors{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.blue{
+    background-color: #1100ca;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 2px solid #89caff;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.green{
+    background-color: #12b20c;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 2px solid #aafca5;
+    cursor: pointer;
+}
+
+.clock{
+    background-color: #0C7308;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 20%;
+    height: 400px;
+    flex-direction: column;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: 5px solid #4ee6ae;
+    box-shadow: 1px 1px 10px #9cc1ff;
+}
+
+.clock p{
+    font-family: monospace;
+    color: #4ee6ae;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.display{
+    margin-top: 10px;
+    width: 150%;
+    background-color: #12B20C;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: 5px solid #4ee6ae;
+    box-shadow: 1px 1px 10px #fefffe;
+    padding: 27px 15px;
+}
+
+.display-time{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    font-family: monospace;
+    color: #4ee6ae;
+    justify-content: center;
+}
+
+.area-btn{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    width: 100%;
+    height: 100%;
+}
+
+.area-btn button{
+    flex: 1;
+    cursor: pointer;
+    border: 0;
+    outline: none;
+    background-color: #0C7308;
+    font-size: 25px;
+    font-family: monospace;
+    color: #4ee6ae;
+}
+
+.area-btn button:nth-child(2){
+    border-top: 3px solid #074b05;
+    border-bottom: 3px solid #074b05;
+}
+
+.area-btn button:hover{
+    background-color: #12B20C;
+}
